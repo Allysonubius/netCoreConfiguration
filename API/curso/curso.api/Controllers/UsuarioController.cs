@@ -1,6 +1,9 @@
-﻿using curso.api.Models;
+﻿using curso.api.Filter;
+using curso.api.Models;
 using curso.api.Models.Usuario;
 using Microsoft.AspNetCore.Mvc;
+using NPoco.Expressions;
+using OpenXmlPowerTools;
 using Swashbuckle.AspNetCore.Annotations;
 using System;
 using System.Collections.Generic;
@@ -23,6 +26,7 @@ namespace curso.api.Controllers
         [SwaggerResponse(statusCode:500, description: "Erro interno no servidor.", Type = typeof(ErroGenericoViewModel))]
         [HttpPost]
         [Route("login")]
+        [ValidacaoModelStateCustomizado]
         public IActionResult Logar(LoginViewModelInput loginViewModelInput)
         {
             return Ok( loginViewModelInput);
@@ -38,8 +42,10 @@ namespace curso.api.Controllers
         [SwaggerResponse(statusCode: 500, description: "Erro interno no servidor.", Type = typeof(ErroGenericoViewModel))]
         [HttpPost]
         [Route("registrar")]
+        [ValidacaoModelStateCustomizado]
         public IActionResult Registrar(RegistrarViewModelInput registrarViewModelInput)
         {
+            
             return Created("Registro realizado com sucesso ! ", registrarViewModelInput);
         }
     }

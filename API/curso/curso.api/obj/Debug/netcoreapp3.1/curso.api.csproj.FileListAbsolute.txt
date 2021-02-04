@@ -26,3 +26,6 @@ D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\Swash
 D:\Github\netCoreConfiguration\API\curso\curso.api\obj\Debug\netcoreapp3.1\curso.api.MvcApplicationPartsAssemblyInfo.cs
 D:\Github\netCoreConfiguration\API\curso\curso.api\obj\Debug\netcoreapp3.1\curso.api.csproj.CopyComplete
 D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Annotations.dll
+D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\NPoco.dll
+D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\OpenXmlPowerTools.dll
+D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\System.Linq.Async.dll

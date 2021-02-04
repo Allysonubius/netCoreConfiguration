@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -9,8 +9,73 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="NovaPasta\**" />
+    <Content Remove="NovaPasta\**" />
+    <EmbeddedResource Remove="NovaPasta\**" />
+    <None Remove="NovaPasta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\curso.api.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\curso.api.MvcApplicationPartsAssemblyInfo.cs" />
+    <Compile Include="obj\Release\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\netcoreapp3.1\curso.api.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.Development.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\curso.api.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\curso.api.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\curso.api.runtimeconfig.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\curso.api.xml" />
+    <Content Include="obj\curso.api.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\netcoreapp3.1\curso.api.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\netcoreapp3.1\staticwebassets\curso.api.StaticWebAssets.xml" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\curso.api.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\curso.api.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\curso.api.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\NPoco.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\OpenXmlPowerTools.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Annotations.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Linq.Async.dll" />
+    <None Include="obj\curso.api.csproj.nuget.g.props" />
+    <None Include="obj\curso.api.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\netcoreapp3.1\apphost.exe" />
+    <None Include="obj\Debug\netcoreapp3.1\curso.api.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\curso.api.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\curso.api.csproj.CopyComplete" />
+    <None Include="obj\Debug\netcoreapp3.1\curso.api.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\curso.api.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\curso.api.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\curso.api.genruntimeconfig.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\curso.api.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\curso.api.pdb" />
+    <None Include="obj\Debug\netcoreapp3.1\curso.api.RazorTargetAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\staticwebassets\curso.api.StaticWebAssets.Manifest.cache" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Release\netcoreapp3.1\curso.api.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\netcoreapp3.1\curso.api.assets.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NPoco" Version="5.1.2" />
+    <PackageReference Include="OpenXmlPowerTools" Version="4.5.3.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Release\netcoreapp3.1\" />
   </ItemGroup>
 
 
