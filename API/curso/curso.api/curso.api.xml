@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>curso.api</name>
+    </assembly>
+    <members>
+        <member name="M:curso.api.Controllers.UsuarioController.Logar(curso.api.Models.Usuario.LoginViewModelInput)">
+            <summary>
+            teste
+            </summary>
+            <param name="loginViewModelInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:curso.api.Controllers.UsuarioController.Registrar(curso.api.Models.Usuario.RegistrarViewModelInput)">
+            <summary>
+            
+            </summary>
+            <param name="registrarViewModelInput"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

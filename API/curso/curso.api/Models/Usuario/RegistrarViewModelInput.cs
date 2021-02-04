@@ -11,19 +11,22 @@ namespace curso.api.Models.Usuario
         [Required(ErrorMessage ="Campo Login obrigatório.")]
         public string Login
         {
-            get; set;
+            get; 
+            set;
         }
 
         [Required(ErrorMessage = "Campo Email obrigatório.")]
         public string Email
         {
-            get; set;
+            get;
+            set;
         }
 
         [Required(ErrorMessage = "Campo Senha obrigatório.")]
         public string Senha
         {
-            get; set;
+            get; 
+            set;
         }
     }
 }

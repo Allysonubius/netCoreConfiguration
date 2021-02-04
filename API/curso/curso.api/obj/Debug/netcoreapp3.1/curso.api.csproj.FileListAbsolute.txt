@@ -18,3 +18,11 @@ D:\Github\netCoreConfiguration\API\curso\curso.api\obj\Debug\netcoreapp3.1\curso
 D:\Github\netCoreConfiguration\API\curso\curso.api\obj\Debug\netcoreapp3.1\curso.api.dll
 D:\Github\netCoreConfiguration\API\curso\curso.api\obj\Debug\netcoreapp3.1\curso.api.pdb
 D:\Github\netCoreConfiguration\API\curso\curso.api\obj\Debug\netcoreapp3.1\curso.api.genruntimeconfig.cache
+D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\curso.api.xml
+D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Github\netCoreConfiguration\API\curso\curso.api\obj\Debug\netcoreapp3.1\curso.api.MvcApplicationPartsAssemblyInfo.cs
+D:\Github\netCoreConfiguration\API\curso\curso.api\obj\Debug\netcoreapp3.1\curso.api.csproj.CopyComplete
+D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Annotations.dll
