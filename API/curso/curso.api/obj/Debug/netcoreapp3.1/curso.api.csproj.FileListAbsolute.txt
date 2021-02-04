@@ -29,3 +29,11 @@ D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\Swash
 D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\NPoco.dll
 D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\OpenXmlPowerTools.dll
 D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\System.Linq.Async.dll
+D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll

@@ -4,19 +4,33 @@
         <name>curso.api</name>
     </assembly>
     <members>
+        <member name="M:curso.api.Controllers.CursosController.Post(curso.api.Models.Cursos.CursosViewModelInput)">
+            <summary>
+            Criar novos cursos.
+            </summary>
+            <param name="registrarViewModelInput"></param>
+            <returns>Retorna criado os dados do curso.</returns>
+        </member>
+        <member name="M:curso.api.Controllers.CursosController.Get">
+            <summary>
+            Exibir cursos.
+            </summary>
+            <param name="registrarViewModelInput"></param>
+            <returns>Retorna ok e dados do curso do usuários.</returns>
+        </member>
         <member name="M:curso.api.Controllers.UsuarioController.Logar(curso.api.Models.Usuario.LoginViewModelInput)">
             <summary>
-            teste
+            Login do usuário.
             </summary>
             <param name="loginViewModelInput"></param>
-            <returns></returns>
+            <returns>Retorna ok no ato de login do usuário</returns>
         </member>
         <member name="M:curso.api.Controllers.UsuarioController.Registrar(curso.api.Models.Usuario.RegistrarViewModelInput)">
             <summary>
-            
+            Registro do usuário.
             </summary>
             <param name="registrarViewModelInput"></param>
-            <returns></returns>
+            <returns>Retorna criado registro novo do usuário.</returns>
         </member>
     </members>
 </doc>
