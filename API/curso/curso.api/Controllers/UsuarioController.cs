@@ -1,4 +1,5 @@
 ﻿using curso.api.Filter;
+using curso.api.Infra.Data;
 using curso.api.Models;
 using curso.api.Models.Banco;
 using curso.api.Models.Usuario;
@@ -77,7 +78,8 @@ namespace curso.api.Controllers
         [Route("registrar")]
         [ValidacaoModelStateCustomizado]
         public IActionResult Registrar(RegistrarViewModelInput registrarViewModelInput){
-            
+            var options = new DbContextOptions<Curso>;
+            CursoDbContext contexto = new CursoDbContext();
             return Created("Registro realizado com sucesso ! ", registrarViewModelInput);
         }
     }
