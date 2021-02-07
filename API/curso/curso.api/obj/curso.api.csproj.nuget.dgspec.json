@@ -56,6 +56,10 @@
               "target": "Package",
               "version": "[3.1.9, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "NPoco": {
               "target": "Package",
               "version": "[5.1.2, )"

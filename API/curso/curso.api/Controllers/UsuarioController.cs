@@ -1,9 +1,11 @@
-﻿using curso.api.Filter;
+﻿using curso.api.Business.Entity;
+using curso.api.Filter;
 using curso.api.Infra.Data;
 using curso.api.Models;
 using curso.api.Models.Banco;
 using curso.api.Models.Usuario;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using NPoco.Expressions;
 using OpenXmlPowerTools;
@@ -78,8 +80,19 @@ namespace curso.api.Controllers
         [Route("registrar")]
         [ValidacaoModelStateCustomizado]
         public IActionResult Registrar(RegistrarViewModelInput registrarViewModelInput){
-            var options = new DbContextOptions<Curso>;
-            CursoDbContext contexto = new CursoDbContext();
+
+            var options = new DbContextOptionsBuilder<CursoDbContext>();
+            options.UseSqlServer("Server=localhost;Database=CURSO;user=sa;password=App@223020");
+            CursoDbContext contexto = new CursoDbContext(options);
+            //Convertendo 
+            var usuario = new Usuario();
+            usuario.Email = registrarViewModelInput.Login;
+            usuario.Senha = registrarViewModelInput.Senha;
+            usuario.Email = registrarViewModelInput.Email;
+
+            _ = contexto.Usuario.Add(usuario);
+            contexto.SaveChanges();
+
             return Created("Registro realizado com sucesso ! ", registrarViewModelInput);
         }
     }

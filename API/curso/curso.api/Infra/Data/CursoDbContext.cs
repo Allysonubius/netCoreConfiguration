@@ -1,6 +1,7 @@
 ﻿using curso.api.Business.Entity;
 using curso.api.Infra.Data.Mappings;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace curso.api.Infra.Data
 {
     public class CursoDbContext : DbContext
     {
-        public CursoDbContext(DbContextOptions<CursoDbContext> options) : base(options)
+        public CursoDbContext(DbContextOptionsBuilder<CursoDbContext> options)
         {
 
         }
