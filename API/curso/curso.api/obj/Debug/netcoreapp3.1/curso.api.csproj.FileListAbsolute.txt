@@ -69,3 +69,4 @@ D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\runti
 D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Github\netCoreConfiguration\API\curso\curso.api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll

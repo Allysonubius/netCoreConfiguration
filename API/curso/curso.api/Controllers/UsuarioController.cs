@@ -73,7 +73,7 @@ namespace curso.api.Controllers
         /// </summary>
         /// <param name="registrarViewModelInput"></param>
         /// <returns>Retorna criado registro novo do usuário.</returns>
-        [SwaggerResponse(statusCode: 201, description: "Sucesso ao autenticar.", Type = typeof(RegistrarViewModelInput))]
+        [SwaggerResponse(statusCode: 201, description: "Registrado com sucesso.", Type = typeof(RegistrarViewModelInput))]
         [SwaggerResponse(statusCode: 400, description: "Campos obrigatórios.", Type = typeof(ValidaCampoViewModelOutput))]
         [SwaggerResponse(statusCode: 500, description: "Erro interno no servidor.", Type = typeof(ErroGenericoViewModel))]
         [HttpPost]
