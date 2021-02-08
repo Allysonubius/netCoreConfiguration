@@ -16,13 +16,13 @@
 <br/>
     <div align="center">
         <a href="https://docs.microsoft.com/pt-br/dotnet/csharp/">
-            <img src="https://image.winudf.com/v2/image1/Y29tLm5ld0hNYXBwcy5Dc2hhcnBfaWNvbl8xNTk2NTY4MDMzXzA4NA/icon.png?w=170&fakeurl=1" width="27%" >
+            <img src="https://image.winudf.com/v2/image1/Y29tLm5ld0hNYXBwcy5Dc2hhcnBfaWNvbl8xNTk2NTY4MDMzXzA4NA/icon.png?w=170&fakeurl=1" width="20%" >
         </a>
         <a href="https://www.postman.com/">
-            <img src="https://img.icons8.com/dusk/64/000000/postman-api.png" width="29%">
+            <img src="https://img.icons8.com/dusk/64/000000/postman-api.png" width="20%">
         </a>
         <a href="https://docs.microsoft.com/pt-br/dotnet/csharp/">
-            <img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/BrandVisualStudioWin2019-3.svg"  width="27%">
+            <img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/BrandVisualStudioWin2019-3.svg"  width="20%">
         </a>
     </div>
 </div>
