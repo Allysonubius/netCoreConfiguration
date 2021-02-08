@@ -1,11 +1,15 @@
 ﻿using curso.api.Business.Entity;
+using curso.api.Business.Repository;
+using curso.api.Configurations;
 using curso.api.Filter;
 using curso.api.Infra.Data;
+using curso.api.Infra.Data.Repository;
 using curso.api.Models;
 using curso.api.Models.Banco;
 using curso.api.Models.Usuario;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using NPoco.Expressions;
 using OpenXmlPowerTools;
@@ -25,6 +29,16 @@ namespace curso.api.Controllers
     public class UsuarioController : ControllerBase{
         
         private object usuarioViewModelOutput;
+
+        private readonly IUsuarioRepository _usuarioRepository;
+        private IConfiguration _configuration;
+        
+        //public UsuarioController(
+        //   IUsuarioRepository usuarioRepository, IConfiguration configuration, IAuthenticationService authentication)
+        //{
+        //   _usuarioRepository = usuarioRepository;
+        //    _configuration = configuration;
+        //}
 
         /// <summary>
         /// Login do usuário.
@@ -90,8 +104,8 @@ namespace curso.api.Controllers
             usuario.Senha = registrarViewModelInput.Senha;
             usuario.Email = registrarViewModelInput.Email;
 
-            _ = contexto.Usuario.Add(usuario);
-            contexto.SaveChanges();
+            _usuarioRepository.Adicionar(usuario);
+            _usuarioRepository.Commit(usuario);
 
             return Created("Registro realizado com sucesso ! ", registrarViewModelInput);
         }

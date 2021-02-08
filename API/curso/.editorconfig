@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# IDE0022: Usar o corpo do bloco para métodos
+csharp_style_expression_bodied_methods = false:silent
+
+# CS1591: O comentário XML ausente não foi encontrado para o tipo ou membro visível publicamente
+dotnet_diagnostic.CS1591.severity = none

@@ -30,6 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
     <None Include="bin\Debug\netcoreapp3.1\curso.api.dll" />
     <None Include="bin\Debug\netcoreapp3.1\curso.api.exe" />
     <None Include="bin\Debug\netcoreapp3.1\curso.api.pdb" />
