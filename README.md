@@ -21,8 +21,6 @@
         <a href="https://www.postman.com/">
             <img src="https://img.icons8.com/dusk/64/000000/postman-api.png" width="29%">
         </a>
-    </div>
-    <div align="center">
         <a href="https://docs.microsoft.com/pt-br/dotnet/csharp/">
             <img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/BrandVisualStudioWin2019-3.svg"  width="27%">
         </a>
