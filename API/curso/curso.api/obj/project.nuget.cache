@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lf6SxUKYr5A6KMNgP4R4GpfVxYhq563l5Zi+cs+bOp3Fl0TSwlFkogri3a9B29SnBi7Rz4n6WBX1JjY6OoLqGw==",
+  "dgSpecHash": "RaM8SQ5Ovj6CL5/Ba2IRR9aLH9zg4T9V8qTa8wMz1DYuf0eifAcfW3WGphYTMkmyMPAvtUeMCYcVOtjEqRCIxg==",
   "success": true,
-  "projectFilePath": "D:\\Github\\netCoreConfiguration\\API\\curso\\curso.api\\curso.api.csproj",
+  "projectFilePath": "D:\\github\\netCoreConfiguration\\API\\curso\\curso.api\\curso.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\allyson.brandao\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\allyson.brandao\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\netCoreConfiguration\\API\\curso\\curso.api\\curso.api.csproj": {}
+    "D:\\github\\netCoreConfiguration\\API\\curso\\curso.api\\curso.api.csproj": {}
   },
   "projects": {
-    "D:\\Github\\netCoreConfiguration\\API\\curso\\curso.api\\curso.api.csproj": {
+    "D:\\github\\netCoreConfiguration\\API\\curso\\curso.api\\curso.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\netCoreConfiguration\\API\\curso\\curso.api\\curso.api.csproj",
+        "projectUniqueName": "D:\\github\\netCoreConfiguration\\API\\curso\\curso.api\\curso.api.csproj",
         "projectName": "curso.api",
-        "projectPath": "D:\\Github\\netCoreConfiguration\\API\\curso\\curso.api\\curso.api.csproj",
+        "projectPath": "D:\\github\\netCoreConfiguration\\API\\curso\\curso.api\\curso.api.csproj",
         "packagesPath": "C:\\Users\\allyson.brandao\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\netCoreConfiguration\\API\\curso\\curso.api\\obj\\",
+        "outputPath": "D:\\github\\netCoreConfiguration\\API\\curso\\curso.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\allyson.brandao\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -101,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

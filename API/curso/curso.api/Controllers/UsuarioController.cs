@@ -104,7 +104,7 @@ namespace curso.api.Controllers
             usuario.Senha = registrarViewModelInput.Senha;
             usuario.Email = registrarViewModelInput.Email;
 
-            _usuarioRepository.Adicionar(usuario);
+            _usuarioRepository.AdicionarUser(usuario);
             _usuarioRepository.Commit(usuario);
 
             return Created("Registro realizado com sucesso ! ", registrarViewModelInput);

@@ -9,7 +9,7 @@ namespace curso.api.Business.Repository
 {
     interface IUsuarioRepository 
     {
-        void Adicionar(Usuario usuario);
+        void AdicionarUser(Usuario usuario);
         void Commit(Usuario usuario);
     }
 }

@@ -8,10 +8,10 @@
             <summary>
             Criar novos cursos.
             </summary>
-            <param name="registrarViewModelInput"></param>
+            <param name="cursosViewModelInput"></param>
             <returns>Retorna criado os dados do curso.</returns>
         </member>
-        <member name="M:curso.api.Controllers.CursosController.Get">
+        <member name="M:curso.api.Controllers.CursosController.Get(curso.api.Models.Cursos.CursosViewModelOutput)">
             <summary>
             Exibir cursos.
             </summary>

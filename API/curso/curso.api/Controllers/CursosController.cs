@@ -18,7 +18,7 @@ namespace curso.api.Controllers{
         /// <summary>
         /// Criar novos cursos.
         /// </summary>
-        /// <param name="registrarViewModelInput"></param>
+        /// <param name="cursosViewModelInput"></param>
         /// <returns>Retorna criado os dados do curso.</returns>
         [SwaggerResponse(statusCode: 201, description: "Sucesso ao cadastrar um novo curso.")]
         [SwaggerResponse(statusCode: 401, description: "Não autorizado.")]
@@ -40,7 +40,7 @@ namespace curso.api.Controllers{
         [SwaggerResponse(statusCode: 500, description: "Erro interno no servidor.")]
         [HttpGet]
         [Route("obter")]
-        public async Task<IActionResult> Get(){
+        public Task<IActionResult>Get(CursosViewModelOutput registrarViewModelInput){
 
             var cursos =new List<CursosViewModelOutput>();
             var CodigoUsuario = int.Parse(User.FindFirst(c => c.Type == ClaimTypes.NameIdentifier)?.Value);
@@ -50,7 +50,12 @@ namespace curso.api.Controllers{
                 Descricao = "Teste",
                 Nome = "Teste"
             });
-            return Ok(cursos);
+            return Ok("",cursos);
+        }
+
+        private Task<IActionResult> Ok(string v, List<CursosViewModelOutput> cursos)
+        {
+            throw new NotImplementedException();
         }
     }
 }
